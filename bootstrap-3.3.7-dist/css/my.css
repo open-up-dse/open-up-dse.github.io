@@ -1,0 +1,155 @@
+/*
+@import url("fontawesome-all.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Barlow:400,400italic,600,600italic,600,600italic,900');
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,400italic,600");*/
+
+/* barlow-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/barlow-v12-latin-regular.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+ */
+       url('fonts/barlow-v12-latin-regular.woff') format('woff'); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* barlow-italic - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Barlow';
+  font-style: italic;
+  font-weight: 400;
+  src: url('fonts/barlow-v12-latin-italic.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+ */
+       url('fonts/barlow-v12-latin-italic.woff') format('woff'); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* barlow-600 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 600;
+  src: url('fonts/barlow-v12-latin-600.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+ */
+       url('fonts/barlow-v12-latin-600.woff') format('woff'); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* barlow-600italic - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Barlow';
+  font-style: italic;
+  font-weight: 600;
+  src: url('fonts/barlow-v12-latin-600italic.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+ */
+       url('fonts/barlow-v12-latin-600italic.woff') format('woff'); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* barlow-800 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 800;
+  src: url('fonts/barlow-v12-latin-800.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+ */
+       url('fonts/barlow-v12-latin-800.woff') format('woff'); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* barlow-800italic - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Barlow';
+  font-style: italic;
+  font-weight: 800;
+  src: url('fonts/barlow-v12-latin-800italic.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+ */
+       url('fonts/barlow-v12-latin-800italic.woff') format('woff'); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* barlow-900 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 900;
+  src: url('fonts/barlow-v12-latin-900.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+ */
+       url('fonts/barlow-v12-latin-900.woff') format('woff'); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* barlow-900italic - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Barlow';
+  font-style: italic;
+  font-weight: 900;
+  src: url('fonts/barlow-v12-latin-900italic.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+ */
+       url('fonts/barlow-v12-latin-900italic.woff') format('woff'); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+
+body {
+  font-family: Barlow;
+    padding-top: 65px;
+}
+
+a {
+  color:inherit;
+}
+a:hover {
+  color:inherit;
+  text-decoration: underline;
+  text-decoration-color: grey;
+}
+
+.myJumbo {
+  padding:10%;
+  text-align: center;
+  background-image: url('../../img/pexels-juan-pablo-serrano-arenas-1242348.jpg');
+}
+.myJumbo p {
+  font-size: x-large;
+}
+
+.myAlert {
+  text-align: center;
+  font-size: x-large;
+}
+
+.cfp {
+  padding: 2% 8%;
+  font-size: 1.6em;
+}
+.cfp br {
+  margin-bottom: 0.3em;
+}
+
+.cfpBody {
+  padding:0 15%;
+}
+
+.incfp {
+  font-size: 1.4em;
+}
+
+.bi {
+  vertical-align: -.125em;
+  fill: currentColor;
+}
+
+.organisers {
+  padding:2% 8%;
+  font-size: 1.4em;
+}
+
+b {
+  font-weight: normal;
+  color: #ab7c85;
+}
+
+
+footer {
+  padding:2em 0 1em 0;
+  margin:2.5em 0;
+  border-top: 1px solid lightgray;
+}
+
+.navbar {
+  margin-bottom: 1em;
+}
