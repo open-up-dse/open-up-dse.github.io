@@ -9,6 +9,16 @@
 	margin-bottom: 0.5em;
 }
 
+.normalp {
+	font-size: 1.2em;
+	line-height: 1.2em;
+}
+
+.normalp > p {
+	margin-bottom: 0.2em;
+
+}
+
 .org {
 	font-size: 1.2em;
 	line-height: 1.4em; 
