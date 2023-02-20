@@ -120,13 +120,14 @@ p a {
   top: 0;
   width: 100%;
   height: 100%;
-  opacity: 0.4;
-  background-image: url('../../img/pexels-wendy-wei-4000421.png');
+  opacity: 0.8;
+  background-image: url('../../img/pexels-mnm-zameer-3308588.jpg');
   background-size: contain;
 }
 
 .backImage-content {
   position: relative;
+  color: white;
 }
 
 .myJumbo p {
@@ -146,13 +147,11 @@ p a {
   margin-bottom: 0.3em;
 }
 
-.cfpBody {
+.pageBody {
   padding:0 15%;
-}
-
-.incfp {
   font-size: 1.4em;
 }
+
 
 .bi {
   vertical-align: -.125em;
