@@ -84,6 +84,9 @@
 }
 
 
+/* From Petra: "The font you can use on the website is the "Space Grotesk", used in the font weights "Bold 700" and "Light 300" as quantity text I would recommend to use "Work Sans Medium 500" for it." */
+
+
 body {
   font-family: Barlow;
     padding-top: 65px;
@@ -165,7 +168,9 @@ p a {
 
 b {
   font-weight: normal;
-  color: #e38d13;
+  /*color: #e38d13 ;*/
+  /* color: #e7cd00; yellow of header dark */
+  background-color: #fee544; 
 }
 
 
